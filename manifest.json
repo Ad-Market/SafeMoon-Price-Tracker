@@ -1,0 +1,16 @@
+{
+	"name": "SafeMoon Price Tracker",
+	"description": "Check the latest price of SafeMoon from Pancakeswap.",
+	"version": "1.0",
+	"manifest_version": 3,
+	"action": {
+		"default_popup": "main.html",
+		"default_icon": "images/safemoon.png"
+	},
+	"icons": {
+		"16": "images/safemoon.png",
+		"32": "images/safemoon.png",
+		"48": "images/safemoon.png",
+		"128": "images/safemoon.png"
+	}
+}
