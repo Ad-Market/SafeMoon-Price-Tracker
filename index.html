@@ -10,41 +10,44 @@
 	<body>
 		<div class="container text-center">
 			<div class="row">
-				<div><strong>Real time price from Pancakeswap</strong></div>
+				<div><strong>My Portfolio</strong></div>
 			</div>
-			<div class="row">
-				<div class="col">
+			<div class="row custom-row">
+				<div class="col text-start">
 					<img width="24" height="24" src="images/safemoon.png" alt="SafeMoon Logo"> SafeMoon
 				</div>
-				<div class="col">
+				<div class="col text-end">
 					<span id="price">Checking price...</span>
 				</div>
 			</div>
-	        <div class="row">
-			    <div class="col">Holdings:</div>
-			    <div class="col">
+	        <div class="row custom-row">
+			    <div class="col text-start">Holdings:</div>
+			    <div class="col text-end">
 			        <span id="holdings"></span>
 			    </div>
 			</div>
-		    <div class="row">
-			    <div class="col">USD Value:</div>
-			    <div class="col">
+		    <div class="row custom-row">
+			    <div class="col text-start">Value (USD):</div>
+			    <div class="col text-end">
 			        <span id="value">Calculating...</span>
 			    </div>
 			</div>
-			<div class="row">
-			    <div class="col">Total Invested Amount:</div>
-			    <div class="col">
+			<div class="row custom-row">
+			    <div class="col text-start">Invested Amount:</div>
+			    <div class="col text-end">
 			        <span id="initial"></span>
 			    </div>
 			</div>
-		    <div class="row">
-			    <div class="col">Total Profit:</div>
-			    <div class="col">
+		    <div class="row custom-row">
+			    <div class="col text-start">Total Profit:</div>
+			    <div class="col text-end">
 		            <span id="gain"></span>
 			    </div>
 		    </div>
 		</div>
+        <p class="text-center custom-footer">
+            <small>Live Price Data provided by Dex.Guru API</small>
+        </p>
 		<script src="javascripts/index.js"></script>
 	</body>
 </html>
